@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS-2 | Lesson-3</title>
+  <script src='js/main.js'></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <h3>Задание №1</h3>
+  <p>У вас есть большой текст, в котором для обозначения диалогов используются одинарные кавычки. Придумать шаблон, который меняет одинарные кавычки на двойные.</p>
+  <p id='task1'>"'Isn't this game really cool?' - he asked. She said: 'Well, it's so hard and I can't pass the first level!'"</p>
+  <button onclick='task1()'>Выполнить задание</button>
+  <hr>
+
+  <h3>Задание №2</h3>
+  <p>Улучшить шаблон таким образом, чтобы конструкции типа aren’t не меняли одинарную кавычку на двойную.</p>
+  <p id='task2'>"'Isn't this game really cool?' - he asked. She said: 'Well, it's so hard and I can't pass the first level!'"</p>
+  <button onclick='task2()'>Выполнить задание</button>
+  <hr>
+
+  <h3>Задание №3</h3>
+  <p>Создать форму обратной связи с полями: Имя, Телефон, e-mail, текст, кнопка «Отправить». При нажатии на кнопку «Отправить» произвести валидацию полей следуя логике из задания</p>
+  <form action="" class='task3' name='form'>
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" id='name'>
+    </div>
+    <div>
+      <label for="phone">Телефон</label>
+      <input type="text" id='phone'>
+    </div>
+    <div>
+      <label for="email">E-mail</label>
+      <input type="text" id='email'>
+    </div>
+    <div>
+      <label for="text">Текст</label>
+      <input type="text" id='text'>
+    </div>
+    <input type="button" value="Отправить" onclick="check(form)" class='sendButton'>
+  </form>
+</body>
+</html>

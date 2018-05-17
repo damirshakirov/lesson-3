@@ -1,0 +1,45 @@
+#task1,
+#task2 {
+  background-color: grey;
+  color: white;
+  display: inline;
+}
+
+button,
+.sendButton {
+  background-color: green;
+  color: white;
+  border: solid 1px white;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: green;
+  border: solid 1px green;
+  transition: 0.2s;
+}
+
+.sendButton:hover {
+  background-color: white;
+  color: green;
+  border: solid 1px green;
+  transition: 0.2s;
+}
+.task3 {
+  width: 500px;
+  text-align: left;
+}
+
+.task3 input {
+  width: 150px;
+  margin-bottom: 10px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid grey;
+  padding: 5px;
+}
+
