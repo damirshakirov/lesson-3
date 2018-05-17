@@ -30,7 +30,7 @@ check = function (form) {
     document.getElementById('phone').style.border = '1px solid red';
     errorText += 'Телефон должен быть в формате +7(000)000-0000\n';
   }
-  if (emailPattern.test('email')) document.getElementById('email').style.border = '1px solid green';
+  if (emailPattern.test(email)) document.getElementById('email').style.border = '1px solid green';
   else {
     document.getElementById('email').style.border = '1px solid red';
     errorText += 'Укажите корректный email\n';
