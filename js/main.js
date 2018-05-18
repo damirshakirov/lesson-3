@@ -35,7 +35,7 @@ check = function (form) {
     document.getElementById('email').style.border = '1px solid red';
     errorText += 'Укажите корректный email\n';
   }
-  if (textPattern.test('text')) document.getElementById('text').style.border = '1px solid green';
+  if (textPattern.test(text)) document.getElementById('text').style.border = '1px solid green';
   else {
     document.getElementById('text').style.border = '1px solid red';
     errorText += 'Заполните поле текст произвольным текстом';
